@@ -9,7 +9,7 @@
                 "-g",
                 "${workspaceFolder}/*.cpp",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\main.exe"
                 //, "-DDO_DEBUG" // Uncomment this to show C++ debugging info
             ],
             "options": {
