@@ -41,10 +41,10 @@ Windows 11
         - Open `<maze-folder>` in VSCode, then compile `main.cpp` and all other source files. This will generate a `main.exe` executable.
         - For an in-depth explanation on how to use VSCode with C++, please refer to [here](https://code.visualstudio.com/docs/languages/cpp).
     - To compile from command line:
-        - Replace `<maze-folder>` and `<your-excutable>` with your choices, and run the following command:<br />
-            `maze-folder>g++  -fdiagnostics-color=always <maze-folder>/*.cpp -o <maze-folder>\<your-executable>.exe`
+        - Replace `<maze-folder>` with your choice, and run the following command:<br />
+            `maze-folder>g++  -fdiagnostics-color=always <maze-folder>/*.cpp -o <maze-folder>\main.exe`
         - To access debugging statements, run the following command:<br />
-            `maze-folder>g++ -DDO_DEBUG -fdiagnostics-color=always <maze-folder>/*.cpp -o <maze-folder>\<your-executable>.exe`
+            `maze-folder>g++ -DDO_DEBUG -fdiagnostics-color=always <maze-folder>/*.cpp -o <maze-folder>\main.exe`
 ### 2. How to run
 - Make sure that both python scripts `maze_img_displayer.py` and `run_all.py` are downloaded in your `<maze-folder>`.
 - cd to your `<maze-folder>`:<br />
